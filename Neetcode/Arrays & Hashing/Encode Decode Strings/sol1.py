@@ -1,6 +1,6 @@
 class Solution:
 
-    def encode(self, strs: List[str]) -> str:
+    def encode(self, strs: list[str]) -> str:
         full_string = ''.join(strs)
         n = str(len(strs))
         lens = '[' + ''.join([f"{len(s)} " for s in strs]) + ']' + n
@@ -8,7 +8,7 @@ class Solution:
         return full_string
         
 
-    def decode(self, s: str) -> List[str]:
+    def decode(self, s: str) -> list[str]:
         full_string = s
         lis = []
         #reading length of strs list
