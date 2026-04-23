@@ -14,3 +14,8 @@ Arrays & Hashing - Top K Frequent Elements -> Bucket Sort Algorithm (Interesting
 - Learn graphs + dp from playlists
 - Attempt neetcode graphs
 - Attempt neetcode binary search
+
+## To Do
+
+- Re-read: Two Pointers / Trapping Rain Water / Sol 2 (I don't remember how it works)
+- Watch Neetcode video for: Two Pointer / Trapping Rain Water
