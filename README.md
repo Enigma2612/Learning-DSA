@@ -19,4 +19,4 @@ Arrays & Hashing - Top K Frequent Elements -> Bucket Sort Algorithm (Interesting
 
 - Re-read: Two Pointers / Trapping Rain Water / Sol 2 (I don't remember how it works)
 - Watch Neetcode video for: Two Pointer / Trapping Rain Water
-- Learn Graphs & Potentially ML
+- Learn Graphs & Potentially random forest algorithm in ML
