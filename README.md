@@ -8,6 +8,7 @@ Use hashmaps for storing unordered data, use arrays for ordered data
 
 Arrays & Hashing - Top K Frequent Elements -> Bucket Sort Algorithm (Interesting)
 
+Kadane's Algorithm -> Good for greedy approaches
 
 ## Learning Plan
 
@@ -20,3 +21,4 @@ Arrays & Hashing - Top K Frequent Elements -> Bucket Sort Algorithm (Interesting
 - Re-read: Two Pointers / Trapping Rain Water / Sol 2 (I don't remember how it works)
 - Watch Neetcode video for: Two Pointer / Trapping Rain Water
 - Learn Graphs & Potentially random forest algorithm in ML
+
