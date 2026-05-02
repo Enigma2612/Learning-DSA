@@ -22,3 +22,5 @@ Kadane's Algorithm -> Good for greedy approaches
 - Watch Neetcode video for: Two Pointer / Trapping Rain Water
 - Learn Graphs & Potentially random forest algorithm in ML
 
+
+(Taking a break till 14th May to focus on Endsem exams)
