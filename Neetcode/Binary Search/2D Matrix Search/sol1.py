@@ -1,8 +1,6 @@
 class Solution:
     def searchMatrix(self, matrix: list[list[int]], target: int) -> bool:
-        flat = []
-        for i in matrix:
-            flat.extend(i)
+        flat = [j for i in matrix for j in i]
         
         l,r = 0, len(flat)-1
 
