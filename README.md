@@ -10,6 +10,8 @@ Arrays & Hashing - Top K Frequent Elements -> Bucket Sort Algorithm (Interesting
 
 Kadane's Algorithm -> Good for greedy approaches
 
+Interesting trick for rounded up division (a/b) rounded up : (a + b - 1)//b
+
 ## Learning Plan
 
 - Learn graphs + dp from playlists
@@ -24,3 +26,5 @@ Kadane's Algorithm -> Good for greedy approaches
 
 
 (Taking a break till 14th May to focus on Endsem exams)
+
+
