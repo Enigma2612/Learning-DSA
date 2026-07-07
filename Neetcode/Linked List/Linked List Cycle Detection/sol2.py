@@ -1,0 +1,24 @@
+from typing import Optional
+# Definition for singly-linked list.
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        if not head: 
+            return False
+        s = head
+        f = head.next
+
+        while f and f.next:
+            if s == f: return True
+            s = s.next
+            f = f.next.next
+        return False
+
+#S: Slow Pointer, F: Fast Pointer
+#Every iteration: S += 1, F += 2
+#In a cycle, Gap between S,F closes by (+2-1 = 1)
+#Thus S,F will always meet if there is a cycle
