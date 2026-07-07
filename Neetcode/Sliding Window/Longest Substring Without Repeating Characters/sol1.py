@@ -15,5 +15,3 @@ class Solution:
                 current = i - l + 1
                 longest = max(longest, current)
         return longest
-
-#nice problem, made me realize that using a sliding window is slightly less naturally obvious to me
