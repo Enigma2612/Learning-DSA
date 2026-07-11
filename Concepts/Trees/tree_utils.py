@@ -4,6 +4,9 @@ class Node:
         self.left = left
         self.right = right
 
+    def __str__(self):
+        return str(self.val)
+
 def make_tree(lis):
     lis2 = [Node() for _ in range(len(lis))]
     
