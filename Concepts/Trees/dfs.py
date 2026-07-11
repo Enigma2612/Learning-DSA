@@ -6,9 +6,9 @@ def it_dfs(root):
     ans = []
     while stack:
         el = stack.pop()
-        if el.right:
+        if el.right and el.right.val:
             stack.append(el.right)
-        if el.left:
+        if el.left and el.left.val:
             stack.append(el.left)
         ans.append(el.val)
     return ans
@@ -17,7 +17,7 @@ def it_dfs(root):
 def rec_dfs(root):
     ans = []
     def dfs(root):
-        if root:
+        if root and root.val:
             ans.append(root.val)
             dfs(root.left)
             dfs(root.right)
