@@ -12,11 +12,24 @@ Kadane's Algorithm -> Good for greedy approaches
 
 Interesting trick for rounded up division (a/b) rounded up : (a + b - 1)//b
 
+
 ## Learning Plan
 
 - Learn graphs + dp from playlists
 - Attempt neetcode graphs
 - Attempt neetcode binary search
+
+Graphs:
+- Union Find
+- Topological Sort
+- Number of Islands
+- Dijkstra's Algorithm
+- Minimum Spanning Trees (Prim's Algorithm, Kruskal's Algorithm)
+- Floyd Warshall's Algorithm
+
+Heaps / Priority Queues
+- Try to implement Heapify
+
 
 ## To Do
 
@@ -25,6 +38,5 @@ Interesting trick for rounded up division (a/b) rounded up : (a + b - 1)//b
 - Learn Graphs & Potentially random forest algorithm in ML
 
 
-(Taking a break till 14th May to focus on Endsem exams)
 
 
